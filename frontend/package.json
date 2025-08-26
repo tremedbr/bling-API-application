@@ -1,0 +1,26 @@
+{
+  "name": "bling-integration-frontend",
+  "version": "1.0.0",
+  "description": "Frontend para integração com API do Bling via OAuth",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.5.0",
+    "react-icons": "^4.11.0",
+    "tailwindcss": "^3.3.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
